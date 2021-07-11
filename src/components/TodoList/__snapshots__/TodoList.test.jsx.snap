@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList should match snapshoot 1`] = `
+<Fragment>
+  <ul
+    className="list-group list-group-flush"
+  >
+    <TodoItem
+      deleteTodo={[MockFunction]}
+      handleToggle={[MockFunction]}
+      index={0}
+      key="1625964511944"
+      todo={
+        Object {
+          "desc": "Estudiar jest",
+          "done": false,
+          "id": 1625964511944,
+        }
+      }
+    />
+    <TodoItem
+      deleteTodo={[MockFunction]}
+      handleToggle={[MockFunction]}
+      index={1}
+      key="1625964511945"
+      todo={
+        Object {
+          "desc": "Estudiar Mongo",
+          "done": false,
+          "id": 1625964511945,
+        }
+      }
+    />
+  </ul>
+</Fragment>
+`;
