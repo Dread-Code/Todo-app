@@ -10,10 +10,7 @@ export const TodoItem = ({ todo, index, handleToggle, deleteTodo }) => {
         >
           {index + 1}. {todo.desc}
         </p>
-        <button
-          className="btn btn-danger"
-          onClick={(e) => deleteTodo(todo.id, e)}
-        >
+        <button className="btn btn-danger" onClick={(e) => deleteTodo(todo.id)}>
           Eliminar
         </button>
       </li>

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItem should have the complete class if todo.done equal true 1`] = `
+<Fragment>
+  <li
+    className="list-group-item"
+    key="1625964511944"
+  >
+    <p
+      className="complete"
+      onClick={[Function]}
+    >
+      1
+      . 
+      Estudiar jest
+    </p>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Eliminar
+    </button>
+  </li>
+</Fragment>
+`;
+
+exports[`TodoItem should match to snapshoot 1`] = `
+<Fragment>
+  <li
+    className="list-group-item"
+    key="1625964511944"
+  >
+    <p
+      className="false"
+      onClick={[Function]}
+    >
+      1
+      . 
+      Estudiar jest
+    </p>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Eliminar
+    </button>
+  </li>
+</Fragment>
+`;
