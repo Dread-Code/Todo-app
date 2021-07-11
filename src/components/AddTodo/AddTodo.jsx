@@ -7,6 +7,9 @@ export const AddTodo = ({ addTodo }) => {
   });
 
   const handleAddTodo = (e) => {
+    if (desc.trim().length <= 1) {
+      return;
+    }
     e.preventDefault();
     const newTodo = {
       id: new Date().getTime(),
